@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Comparison</title>
+</head>
+<body>
+    <script>
+        let a = 20;
+        let b = 40;
+        let c = 50;
+
+        if (a > b && a > c) {
+            console.log("a is the largest number");
+        } else if (b > a && b > c) {
+            console.log("b is the largest number");
+        } else {
+            console.log("c is the largest number");
+        }
+
+        if ((a > b && a < c) || (a < b && a > c)) {
+            console.log("a is the mid number");
+        } else if ((b > a && b < c) || (b < a && b > c)) {
+            console.log("b is the mid number");
+        } else {
+            console.log("c is the mid number");
+        }
+
+        if (a < b && a < c) {
+            console.log("a is the smallest number");
+        } else if (b < a && b < c) {
+            console.log("b is the smallest number");
+        } else {
+            console.log("c is the smallest number");
+        }
+    </script>
+</body>
+</html>
