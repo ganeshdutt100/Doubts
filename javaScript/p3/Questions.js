@@ -78,7 +78,16 @@
 
 
 
+// ---------------------------------------------------------------------------------------
+//    8.   Write a program to find the value of one number raised to the power of another
+// let base = parseInt(prompt("Enter your base number number: "));
+// let power = parseInt(prompt("Enter your Power number number: "));
 
+// let total =1;
+// for (let i = 1; i <= power; i++) {
+//        total *= base;     
+// }
+// console.log(total);
 
 
 
