@@ -66,6 +66,21 @@
 // console.log(sum);
 
 
+// ---------------------------------------------------------------------------------------
+//    7.  Write a program to find the factorial value of any number
+// let number = parseInt(prompt("Enter your factorial number number: "));
+
+// let factorial =1;
+// for (let i = 1; i <= number; i++) {
+//        factorial *= i;     
+// }
+// console.log(factorial);
+
+
+
+
+
+
 
 
 
