@@ -79,15 +79,19 @@
 
 
 // ---------------------------------------------------------------------------------------
-//    8.   Write a program to find the value of one number raised to the power of another
-// let base = parseInt(prompt("Enter your base number number: "));
-// let power = parseInt(prompt("Enter your Power number number: "));
+//    8.   write a program to reverse the given Digits
+let number = parseInt(prompt("Enter a number: "));
+let reversedNumber = 0;
 
-// let total =1;
-// for (let i = 1; i <= power; i++) {
-//        total *= base;     
-// }
-// console.log(total);
+while (number > 0) {
+    let digit = number % 10;
+    reversedNumber = reversedNumber * 10 + digit;
+    number = Math.floor(number / 10);
+}
+
+console.log(reversedNumber);
+;
+
 
 
 
